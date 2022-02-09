@@ -9,7 +9,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .noticias {
     margin: 0 auto 0 auto;
     width: 100%;

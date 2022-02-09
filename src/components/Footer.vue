@@ -1,18 +1,18 @@
 <template>
 <div>
     <div class="footer">
-        <div class="dinofooter">
+        <div class="chess-footer">
             <div class="redes">
                 <a href="https://es-la.facebook.com/"><i class="fab fa-facebook"></i></a>
                 <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
                 <a href="https://twitter.com/?lang=es"><i class="fab fa-twitter"></i></a>
             </div>
+            <div class="link-id">
+                <a href="https://github.com/ismaelgomez1986">
+                    Creado por <span>Ismael Gómez.</span></a>
+            </div>
+        </div>
 
-        </div>
-        <div class="link-id">
-            <a href="https://github.com/AdrianFigueroaA">
-                Desarrollado por <span>Adrian Figueroa.</span></a>
-        </div>
     </div>
 </div>
 </template>
@@ -24,34 +24,33 @@ export default {
 </script>
 
 <style lang="scss">
-.footer {
-    background-image: url("../assets/horses.jpeg");
-    background-position: center;
+.chess-footer {
+    background-image: url("../assets/chess-footer.png");
+    background-position: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 300px;
+    width: 100%;
+    height: 500px;
 }
 
-.dinofooter {
-    background-image: url("../assets/dino-footer.svg");
-    background-position: 80%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 300px;
+.footer {
+    position: relative;
 }
 
-.link-id {
-    display: flex;
-    justify-content: center;
+.link-id,
+a {
+    display: absolute;
     font-weight: bold;
     font-size: 20px;
+    top: 10%;
+    left: 10%;
 
     a {
         color: black;
 
         span {
+            color: #000000;
 
-            color: #099745;
         }
     }
 
@@ -70,7 +69,7 @@ export default {
 
 @media (max-width: 500px) {
 
-    .dinofooter {
+    .chess-footer {
         background-image: none;
         height: 250px;
     }
