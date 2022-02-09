@@ -38,10 +38,14 @@ export default {
 <style lang="scss" scoped>
 .explanation-piece {
     font-family: "Merriweather", sans-serif;
-    background-color: black;
+    background-color: black !important;
     padding: 5% 0;
     width: 100%;
     height: auto;
-    color: white;
+    color: grey;
+}
+
+h3, h5 {
+margin-left: 10%;
 }
 </style>

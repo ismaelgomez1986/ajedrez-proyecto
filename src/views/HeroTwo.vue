@@ -6,7 +6,7 @@
 
 <script>
 export default {
-
+name: 'HeroTwo'
 }
 </script>
 
@@ -15,7 +15,7 @@ export default {
     background-image: url('../assets/video.webp');
     background-attachment: fixed;
     width: 100%;
-    height: 100%;
+    height: 30%;
     background-color: black;
     background-repeat: no-repeat;
     background-position: center;

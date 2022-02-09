@@ -31,11 +31,11 @@ export default {
 }
 
 .slide-fade-enter-active {
-    transition: all .4s ease;
+    transition: all .5s ease;
 }
 
 .slide-fade-leave-active {
-    transition: all .6s cubic-bezier(1, 0.5, 0.8, 1);
+    transition: all .7s cubic-bezier(1, 0.5, 0.8, 1);
 }
 
 .slide-fade-enter,
